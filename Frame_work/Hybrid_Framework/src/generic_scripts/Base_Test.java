@@ -30,7 +30,7 @@ public class Base_Test implements FrameWorkConst
 		{
 			Generic_Shot.getPhoto(driver);
 		}
-		driver.close();
+		driver.quit();//dont use close instead use quit
 		
 	}
 }
